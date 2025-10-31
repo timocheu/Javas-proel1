@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pageTitle-lbl {
+    font-size: 40px;
+    font-family: 'Red Rose', serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.cart-container {
+    border: solid 1px black;
+    height: 1000px;
+    width: 1250px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartTop-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.continueShopping-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: white;
+    font-weight: bold;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.iconImg-btn {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.cartItems-container {
+    height: 100%;
+}
+
+.cartItems-table {
+    width: 100%;
+}
+
+.productcontent-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.productImg-container {
+    width: 135px;
+    height: 100px;
+}
+
+.productImg {
+    width: 100%;
+    height: 100%;
+}
+
+.productdescription-container {
+    display: flex;
+    flex-direction: column;
+}
+.productName {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.colorlabel-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.colorChoice-label {
+    color: black;
+}
+
+.price-container {
+    text-align: center;
+    font-weight: 600;
+}
+
+.quantity-container {
+    border: solid 1px black;
+    border-radius: 12px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.amt-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.reduce-btn, .add-btn {
+    border: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.cartItems-table {
+  width: 100%;
+  border-collapse: collapse; /* ensures borders don’t double up */
+}
+
+.cartItems-table td {
+  border-bottom: 1px solid black;
+  padding: 12px 8px;
+}
+
+.cartbottom-container {
+    text-align: end;
+}
+
+.buynow-btn {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
