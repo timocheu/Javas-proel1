@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+body label {
+    font-family: 'Red Rose', serif;
+}
+
+.brandlogoimg-bp {
+    width: 75px;
+    height: 75px;
+}
+
+.brandtitle-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.bpbrandname-label {
+    font-size: 50px;
+}
+
+.bpbrandproducts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bpbrandproductscontent {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: auto auto;
+}
+
+.bpbrandproducts-card {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    padding: 10px;
+    gap: 5px;
+}
+
+.bpproductstop {
+    text-align: center;
+}
+
+.bpproductspecs-label {
+    font-family: 'Poppins', serif;
+}
+
+.productimg {
+    width: 125px;
+    height: 100px;
+}
+
+.bpproductbottom {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.productprice-label {
+    font-size: 20px;
+}
+
+.addtocart-btn {
+    font-family: 'Poppins', serif;
+    font-weight: bold;
+    background-color: #CACACA;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.buynow-btn {
+    font-family: 'Poppins', serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
